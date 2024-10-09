@@ -14,16 +14,6 @@ Default Collateral is a simple implementation of the collateral token. Technical
 
 The implementation can be found [here](./src/contracts/defaultCollateral).
 
-## Security
-
-Security audits can be found [here](./audits).
-
-## Usage
-
-### Env
-
-Create `.env` file using a template:
-
 ```
 ETH_RPC_URL=
 ETHERSCAN_API_KEY=
