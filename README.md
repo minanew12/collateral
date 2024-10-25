@@ -8,12 +8,6 @@ This repository contains a Default Symbiotic Collateral implementation.
 
 Symbiotic achieves this by separating the ability to slash assets from the underlying asset, similar to how liquid staking tokens create tokenized representations of underlying staked positions. Technically, collateral positions in Symbiotic are ERC-20 tokens with extended functionality to handle slashing incidents if applicable. In other words, if the collateral token supports slashing, it should be possible to create a `Burner` responsible for properly burning the asset.
 
-## Default Collateral
-
-Default Collateral is a simple implementation of the collateral token. Technically, it's a wrapper over any ERC-20 token with additional slashing history functionality. This functionality is optional and not required in most cases.
-
-The implementation can be found [here](./src/contracts/defaultCollateral).
-
 ```
 ETH_RPC_URL=
 ETHERSCAN_API_KEY=
